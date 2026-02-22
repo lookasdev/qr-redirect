@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+motor
+pydantic
+python-dotenv
+bcrypt
+python-jose[cryptography]
+nanoid
+cachetools
+httpx
+pytest
+user-agents
