@@ -1,10 +1,10 @@
-# Scanvas 🎨
+# Scanvas
 
 **Scanvas** is a modern, full-stack dynamic QR code manager and shortlink redirector. It allows marketers, developers, and businesses to generate static physical QR codes that can have their digital destination changed dynamically at any time.
 
 Built for extreme scan-volume environments, physical QR deployments no longer require re-printing when a marketing campaign URL changes. 
 
-## 🚀 Features
+## Features
 
 * **Dynamic Link Routing**: Update your destination URL on the fly without changing the physical QR artwork.
 * **Pause & Resume**: Temporarily halt traffic with a custom offline page without breaking the shortlink.
@@ -14,7 +14,7 @@ Built for extreme scan-volume environments, physical QR deployments no longer re
 * **Vector QR Generator**: Customize Foreground/Background colors, inject custom center logos, and export clean SVG files ready for high-fidelity physical printing.
 * **Dark Mode**: Beautiful, modern TailwindCSS interfaces that support native light and dark modes.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 * React 18 + TypeScript
@@ -31,7 +31,7 @@ Built for extreme scan-volume environments, physical QR deployments no longer re
 * JWT (JSON Web Tokens via Jose/Passlib)
 * cachetools (TTL memory store)
 
-## 🏃‍♂️ Getting Started
+## Getting Started
 
 ### Prerequisites
 * Node.js v18+
@@ -67,7 +67,7 @@ npm run dev
 ```
 *The React app will boot up on `http://localhost:5173`*
 
-## 📦 Deployment Ready
+## Deployment Ready
 The frontend is already configured with a `public/_redirects` file specifically formatted to allow seamless Single Page Application routing (SPA) when deployed statically on platforms like **Netlify** or **Vercel**. 
 
 ## License
